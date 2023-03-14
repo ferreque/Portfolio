@@ -1,0 +1,9 @@
+
+
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW HOTLINKID:VohFPmYL2N
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?jlcarequena.com/.*$      [NC]
+RewriteRule .*\.(.*|jpg|jpeg|gif|png|bmp|tiff|avi|mpeg|mpg|wma|mov|zip|rar|exe|mp3|pdf|swf|psd|txt|html|htm|php)$ https://jlcarequena.com [R,NC]
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE VohFPmYL2N:HOTLINKID
+
